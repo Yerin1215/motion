@@ -1,5 +1,12 @@
 import { gsap } from "gsap";
 import $ from jquery;
 
-gsap.to("#blue-rectangle", { duration: 3, x: 200, ease: 'elastic', backgroundColor: 'red', width: 250});
-gsap.from("#blue-rectangle", { duration: 5, x: 1000, y:70, rotate:1200});
+let shapeTL = gsap.timeline({});
+
+shapeTL.from("#blue-rectangle", {duration: 1, x: -200, ease: 'elastic', backgroundColor: 'red', width: 250}, "moveShapes")
+    .to("#blue-rectangle", {duration: 1, x: 150});
+
+    $("#blue-rectangle").on("click",function(){
+        shapeTL.play();
+    })
+    
