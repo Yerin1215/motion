@@ -44,7 +44,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/dev\/content\/shapes.html",
       "oF" : 0
     },
@@ -52,7 +52,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/dev\/global\/head.html",
       "oF" : 0
     },
@@ -60,7 +60,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/dev\/global\/scripts.html",
       "oF" : 0
     },
@@ -69,7 +69,7 @@
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/index.html",
+      "oAP" : "\/dev\/index.kit",
       "oF" : 2
     },
     "\/dev\/js\/scripts.js" : {
@@ -323,7 +323,7 @@
   },
   "projectAttributes" : {
     "creationDate" : 639010553.72737396,
-    "displayValue" : "motion-in-class",
+    "displayValue" : "motion",
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets-peach",
     "iconImageWasSetByUser" : 0
