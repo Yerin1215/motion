@@ -13,7 +13,7 @@
 
 
 import { gsap } from "gsap";
-import $ from jquery;
+import $ from jsquery;
 
 let shapeTL = gsap.timeline({paused:true});
 
