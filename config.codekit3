@@ -289,14 +289,6 @@
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
-    },
-    "\/package.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/package-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
     }
   },
   "hooks" : [
